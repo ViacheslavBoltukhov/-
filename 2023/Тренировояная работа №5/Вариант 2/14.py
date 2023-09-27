@@ -1,0 +1,1 @@
+list(print(y*p+x) for p in range(10) for x in range(p) for y in range(p) if (3*p+2)*(p+4)==(x*p**2+y*p+2))
