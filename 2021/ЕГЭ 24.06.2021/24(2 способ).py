@@ -1,0 +1,5 @@
+s = open('24.txt').read()
+s=s.replace('ad','a d')
+s=s.replace('da','d a')
+a=list(map(len, s.split()))
+print(max(a))
